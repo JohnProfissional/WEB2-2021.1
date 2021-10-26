@@ -1,33 +1,12 @@
-create para inseri dados
+Analise a aula gravada  e replique as funcionalidades para Vendas, itensvenda, entrada, produto, itensentrada:
 
+1 - Criar Rotas (create e store) 
 
-venda:
-idvenda
-datavenda
-valortotal
+2 - Criar Views, models e migrations e fazer relacionamento entre as tabelas
 
-itensvendas:
-iditensvendas
-quantidadeitens
-valor
+Entrega: dia 26-10-21 as 14:00
 
-Entrada:
-identrada
-valortotaldanota
-dataentrada
+Valor: 2,00
 
-produto:
-idproduto
-nomeproduto
-quantidade
-data venciemtno
+**seguir padrão do GiT e criar  Branch atividadeIV
 
-itens_entrada:
-iditensentrada
-identrada
-idproduto
-precocompra
-quantidade
-ipi
-frete
-icms
