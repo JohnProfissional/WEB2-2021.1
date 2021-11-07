@@ -38,6 +38,7 @@ por
 **3 - Na pasta Model corrija as relações das models (venda, intensvenda,entrada, itensentrada, fornecedor, produto)conforme relação apresentada entre o model cliente e endereço**
 
 #em anexo exemplo(cliente.php e endereco.php)
+
 ###__Exemplo
   
 **5. Colocar um arquivo em pdf, na pasta da Atividade(referenciada) na branch main, com o print da execução das atividades acima adotando o seguinte modelo para nome do arquivo: print-AtividadeII-Nome-Sobrenome.pdf**
