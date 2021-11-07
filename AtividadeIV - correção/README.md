@@ -19,7 +19,7 @@
             Route::get('/clientes/update/{id}',[ClienteController::Class, 'update'])->name('clientes.update');
 
 **2 - Nas Views modifique as Actions substituido:**
-#exemplo sem parametro:**
+#exemplo sem parametro:
             <form action="/clientes/create" method="post">
 por
             <form action="{{route('clientes.create')}}" method="post">
