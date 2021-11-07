@@ -27,23 +27,4 @@ class ClienteController extends Controller
         $cliente->save();
         return redirect ('/clientes/index');
     }
-
-    public function show ($id){
-        if($id){
-            $cliente = Cliente::where('id',$id)->get();
-        }else{
-            $cliente = Cliente::all();
-        }
-        return view ('clientes.show', ['clientes'=>$cliente]); //passa objeto
-    }
-
-    public function edit ($id){
-        $cliente = Cliente::findorFail($id);
-        return view ('clientes.edit', ['cliente'=>$cliente]);
-    }
-
-    public function update (Request $request){
-        Cliente::find($request->id)->update($request->except('_token'));
-        return redirect('clientes/index')->with('msg', 'Cadastro realizado com sucesso');
-    }
 }
