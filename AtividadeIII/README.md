@@ -16,8 +16,6 @@ Analise a aula gravada  e replique as funcionalidades para Fornecedor , criando:
 
 Entrega: dia 18-10-21 as 18:00
 
-Valor: 1,0 
-
  seguir padrão do GiT e criar  Branch atividadeIII
 
 ###__Exemplo
