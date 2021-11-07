@@ -16,6 +16,7 @@ https://laradock.io/
 
 3 - criar um projeto laravel conforme instruções abaixo
 https://alissonfreire.github.io/manual-ambiente-web/#instalar-o-docker-e-o-docker-compose
+
 ###___Exemplo
 
 **5. Colocar um arquivo em pdf, na pasta da Atividade(referenciada) na branch main, com o print da execução das atividades acima adotando o seguinte modelo para nome do arquivo: print-AtividadeI-Nome-Sobrenome.pdf**
