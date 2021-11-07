@@ -14,6 +14,10 @@ Analise a aula gravada  e replique as funcionalidades para Vendas, itensvenda, e
 
 2 - Criar Views, models e migrations e fazer relacionamento entre as tabelas
 
+Entrega: dia 26-10-21 as 14:00
+
+**seguir padrão do GiT e criar  Branch atividadeIV
+
 ###__Exemplo
 
 **5. Colocar um arquivo em pdf, na pasta da Atividade(referenciada) na branch main, com o print da execução das atividades acima adotando o seguinte modelo para nome do arquivo: print-AtividadeII-Nome-Sobrenome.pdf**
