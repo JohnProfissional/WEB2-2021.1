@@ -36,6 +36,7 @@ por
             <form action="{{route('clientes.update', ['id' => $cliente->id])}}" method="post">
   
 **3 - Na pasta Model corrija as relações das models (venda, intensvenda,entrada, itensentrada, fornecedor, produto)conforme relação apresentada entre o model cliente e endereço**
+
 #em anexo exemplo(cliente.php e endereco.php)
 ###__Exemplo
   
