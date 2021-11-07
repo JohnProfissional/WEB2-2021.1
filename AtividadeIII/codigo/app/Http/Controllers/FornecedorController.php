@@ -27,14 +27,5 @@ class FornecedorController extends Controller
         $fornecedor->save();
         return redirect ('/fornecedores/indexs');
     }
-
-    public function show ($id){
-        if($id){
-            $fornecedor = Fornecedor::where('id',$id)->get();
-        }else{
-            $fornecedor = Fornecedor::all();
-        }
-        return view ('fornecedores.show', ['fornecedores'=>$fornecedor]); //passa objeto
-    }
     
 }
