@@ -24,6 +24,7 @@
 
             <form action="/clientes/create" method="post">
 por
+
             <form action="{{route('clientes.create')}}" method="post">
             
 #exemplo com parametro:
