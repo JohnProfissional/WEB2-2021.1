@@ -1,9 +1,0 @@
- public function update(Request $request){
-        Cliente::find($request->id)->update($request->except('_token'));
-        return redirect('clientes/index')->with('msg', 'alteração realdizado com sucesso');
-        
-    }
-
-
-
-<form action="{{route('cliente.update', ['id' => $cliente->id])}}" method="post">       
