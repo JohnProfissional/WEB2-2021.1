@@ -1,0 +1,143 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: opx;
+    list-style: none;
+    font-size: 1.2ren;
+    font-family: Arial;
+}
+body {
+    margin:0;
+    padding: 0;
+    margin-bottom: 100px;
+    text-decoration: none;
+    background: cornsilk;
+    font: 85% arial, helvetica, sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+   margin-left: 10px;
+}
+
+.nav li a {
+   display: block;
+   padding: 10px;
+   background: tomato;
+}
+
+#container {
+    margin:20px;    
+    background: rgb(36, 175, 157);
+    width: auto;
+    height: 600px;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+#header {
+    background: rgb(36, 175, 157);
+    width: auto;
+    height: 100px;
+    border-bottom: 1px solid #fff;
+}
+
+#nav {
+    background: rgb(50, 60, 205);
+    padding: 2px 0;
+    margin-bottom: 22px;
+
+}
+
+#conteudo {
+    float: center;
+    text-align: center;
+    width: auto;
+    background: rgb(168, 219, 189);
+    margin: 15px 15px 15px 15px; 
+}
+
+#footer {
+    background: #ff9;
+    padding: 5px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+#nav ul {
+    margin: 0 0 0 20px;
+    padding: 0;
+    list-style-type: none;
+    border-left: 1px solid #c4c769;
+}
+
+#nav li {
+    display:inline;
+    padding: 0 10px;
+    border-right: 1px solid #c4c769;
+    text-align: center;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #272900;
+}
+
+#nav li a:hover {
+    text-decoration:none;
+    color: #fff;
+    background-color: #272900;
+}
+
+form {
+    width: 70%;
+    margin-bottom: 7%;
+    text-align: center;
+    
+    
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+.input label {
+    margin: 15px;
+    text-align: center;
+}
+
+.input input {
+    padding: 7px;
+    border: #8a8a8a solid 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+.inputcad input {
+    padding: 7px;
+    border: #8a8a8a solid 1px;
+    border-radius: 1px;
+    text-align: center;
+}
+
+.title {
+    
+    display:flex;
+    flex-direction: column;
+    color: blue;
+    text-align: center;
+}
