@@ -6,13 +6,13 @@
 
 **4. Pegue as instruções da atividade no moodle e adicione dentro da diretiva "###__Exemplo"**
 
-**###__Exemplo**
+###__Exemplo
 
 integrar codificação backend(model, controller, requests) 
 
 Sistema com layout e backend integrado
 
-**###__Exemplo**
+###__Exemplo
 
 **5. Colocar um arquivo em pdf, na pasta da Atividade(referenciada) na branch main, com o print da execução das atividades acima adotando o seguinte modelo para nome do arquivo: print-AtividadeII-Nome-Sobrenome.pdf**
 
